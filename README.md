@@ -29,3 +29,9 @@ Not yet implemented
     git clone git@github.com:Antoine-ValentinCharpentier/GeneticSudoku.git
     cd GeneticSudoku
     ```
+2. Initialise the venv:
+    ```bash
+    python -m venv .venv
+    .venv\Scripts\activate OU source .venv/bin/activate
+    pip install -r requirements.txt
+    ```
