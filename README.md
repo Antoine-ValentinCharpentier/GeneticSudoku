@@ -35,3 +35,29 @@ Not yet implemented
     .venv\Scripts\activate OU source .venv/bin/activate
     pip install -r requirements.txt
     ```
+
+## Some generic definitions / Main steps
+
+- Genetic Algorithm
+This is an optimization method inspired by the natural selection process in biological evolution. It simulates the process of natural selection, genetic recombination, and mutation. 
+
+- Individual
+ A potential solution to the problem at hand. It is characterized by a set of genes. Each genome is characterized by a set of genes that represent something in the individual (to encode an individual's speed, ...).
+
+- Population
+Set of individuals. We start by generating an initial population.
+
+- Fitness Function
+ A fitness function is defined to evaluate how well each individual in the population performs compared to the optimal solution. It assigns a fitness score to each individual, allowing for an assessment of their ability to solve the given problem.
+
+- Selection
+Individuals in the population are selected based on their fitness score. Individuals with higher scores are more likely to be selected.
+
+- Crossover
+Selected individuals are crossed to create new individuals (offspring). This simulates the process of genetic recombination, where parental characteristics are mixed to create offspring.
+
+- Mutation
+ New individuals may undergo random mutations with a certain probability. Mutations introduce variability into the population by randomly modifying some of their characteristics.
+
+- New Generation
+ The new generation of individuals resulting from selection, crossover, and potentially mutation becomes the population for the next generation. This process is repeated over multiple generations.
